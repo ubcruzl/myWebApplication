@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Pages\myHtmlPage.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\myHtmlPage.cshtml" />
+  </ItemGroup>
+
 </Project>
